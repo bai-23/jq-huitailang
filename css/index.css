@@ -1,0 +1,253 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 320px;
+    height: 480px;
+    background: url("../images/game_bg.jpg") no-repeat 0 0;
+    margin: 50px auto;
+    position: relative;
+}
+.container>h1{
+    color: white;
+    margin-left: 60px;
+}
+.container>.progress{
+    width: 180px;
+    height: 16px;
+    background: url("../images/progress.png") no-repeat 0 0;
+    position: absolute;
+    top: 66px;
+    left: 63px;
+}
+.container>.start{
+    width: 150px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(#E55C3D,#C50000);
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    margin-left: -75px;
+}
+.container>.rules{
+    width: 100%;
+    height: 20px;
+    background: #ccc;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+.container>.rule{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
+}
+.rule>p{
+    line-height: 50px;
+    color: white;
+}
+.rule>a{
+    color: red;
+}
+.container>.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
+}
+.mask>h1{
+    color: #ff4500;
+    text-shadow: 3px 3px 0 #fff;
+    font-size: 40px;
+}
+.mask>button{
+    width: 150px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(#74ACCF,#007DDC);
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    margin-left: -75px;
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*设置外层容器*/
+.container{
+    width: 320px;
+    height: 480px;
+    background: url("../images/game_bg.jpg");
+    margin: 50px auto;
+    position: relative;
+    border-radius: 5px;
+    box-shadow:  20px 20px 60px #c9d0d4,
+    -20px -20px 60px #b4bdc1;
+}
+/*设置分数*/
+.container h1{
+    color: white;
+    margin-left: 60px;
+}
+/*设置进度条*/
+.container .progress{
+    width: 180px;
+    height: 16px;
+    background: url("../images/progress.png") no-repeat 0 0;
+    position: absolute;
+    left: 63px;
+    top: 66px;
+}
+/*设置“开始游戏按钮”*/
+.container .start{
+    width: 150px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(#E55C3D, #C50000);
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    margin-left: -75px;
+}
+/*设置“游戏规则”*/
+.container .rules{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background: #777777;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+/*设置游戏规则界面*/
+.container .rule{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
+}
+/*设置游戏规则文字内容*/
+.rule p{
+    line-height: 50px;
+    color: white;
+}
+.rule p:nth-child(1){
+    font-size: 30px;
+    color: aqua;
+}
+.rule a{
+    color: red;
+}
+/*game over 界面*/
+.container .mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 200px;
+    box-sizing: border-box;
+    text-align: center;
+
+    display: none;
+}
+.mask h1{
+    color: #ff4500;
+    text-shadow: 2px 2px 0 #fff;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+/*设置“重新开始按钮”*/
+.mask .reStart{
+    width: 150px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(#74ACCF, #007DDC);
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    margin-left: -75px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
